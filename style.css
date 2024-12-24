@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(/pic/lee.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.box {
+    background-color: transparent;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.box .visible{
+ opacity: 1;
+ transform: translateY(0);
+}
+
+.greeting {
+    background-color: transparent;
+    color: #c0392b;
+    font-weight: bold;
+    
+}
+
+h1, h2 {
+    margin: 0 0 10px;
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #c0392b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a93226;
+}
+
+p{
+ color: white;
+ font-style: italic;
+}
+
+h3{
+   font-family: cursive;
+   color:white;
+}
