@@ -1,0 +1,40 @@
+body {
+   background-color: lightblue;
+   background-image: url(/pic/lee.jpg);
+   padding-top: 50px;
+}
+
+.fa {
+   background-color: transparent;
+   border: 2px solid lightcyan;
+   border-radius: 10px;
+   padding: 50px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(5px);
+}
+
+.dear {
+   text-align: left;
+   font-style: italic;
+   margin-left: 0px;
+   color: #fff;
+}
+
+p {
+   font-size: 20px;
+   font-family: cursive;
+   color: white;
+   text-align: center;;
+}
+
+.audio-container{
+  margin: 20px;
+}
+
+audio{
+   width: 100%;
+}
+
+.ear{
+   font-family:cursive;
+}
